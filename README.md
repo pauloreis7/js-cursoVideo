@@ -84,3 +84,21 @@ Comando que nos ajuda descobrir qual o tipo da variável. Ex: typeoff nome da va
 *Usando isso para colocar um número em reais (R$) temos: 
 
     number.toLocaleString('pt - BR', {style: 'currency', currency: 'BRL'})
+
+## Ordem de operadores
+
+Para os operadores aritiméticos a ordem dá conta é igual a da matemática
+
+Quando temos mais de um tipo de operadores juntos o programa segue a seguinte ordem: 1°: Aritiméticos. 2°: Relacionais. 3°: Lógicos. 4°: Ternários, são sempre os últimos.
+
+Quando se tem mais de um operador lógico na expressão segue essa ordem: 1°: Não. 2°: E. 3°: OU.
+
+## Operadores ternários
+
+São operadores que trabalham com três operandos, por isso o nome ternário.
+
+Consiste em: teste?'true':'false'
+
+O operador ternário sempre testa algo e retorna algum valor pré-definido quando esse valor for verdadeiro ou quando for falso.
+
+O "teste" sempre tem que ser um boolean e é o local em que fica a condição. O "true" é um valor pré definido e é oque acontece caso o teste retorne verdadeiro. O "false" é também um valor pré definido e é oque acontece caso o teste retorne falso.
